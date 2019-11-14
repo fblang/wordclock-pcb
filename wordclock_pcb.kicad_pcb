@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 464)
     (zones 0)
     (modules 37)
@@ -2052,6 +2052,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.8 4.8) (drill 3.5) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Wordclock control board v1.1" (at 191.516 89.154 90) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.15)))
+  )
   (gr_text LCD (at 156.718 126.492) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -2553,7 +2556,7 @@
   (segment (start 182.626 46.756) (end 182.352 46.482) (width 0.4) (layer F.Cu) (net 96))
   (segment (start 182.626 54.864) (end 182.626 46.756) (width 0.4) (layer F.Cu) (net 96))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5DCD04F9) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5DCD050A) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3388,7 +3391,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DCD04F6) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5DCD0507) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
